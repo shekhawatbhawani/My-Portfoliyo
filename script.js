@@ -4,7 +4,7 @@ let cardOfArr = [
     title: "Travel Website",
     about: "This is travel website",
     github: `https://github.com/shekhawatbhawani/Trevels-Website`,
-    live: `trevels-website.vercel.app`,
+    live: `https://trevels-website.vercel.app`,
   },
   {
     img: "./img/covid.jpeg",
@@ -20,15 +20,15 @@ let cardOfArr = [
     about:
       "If you're looking for a website that can give you more random jokes, here are a few you can check out:",
     github: `https://github.com/shekhawatbhawani/English-Random-Jokes`,
-    live: `hindi-random-jokes.vercel.app`,
+    live: `https://hindi-random-jokes.vercel.app`,
   },
   {
-    img: "./img/fronted.webp",
-    title: "Frontend-Practice",
+    img: "./img/dic.webp",
+    title: "Dictionary",
     about:
-      " a platform or concept related to improving web development skills, particularly on the front end. If you'd like to include an section for a Frontend Practice webpage.",
-    github: `https://github.com/shekhawatbhawani/Frontend-Practice`,
-    live: `frontend-practice-lime.vercel.app`,
+      "A comprehensive resource providing definitions, meanings, and usage examples of words in the English language to help improve vocabulary and language skills.",
+    github: `https://github.com/shekhawatbhawani/Dictionary`,
+    live: `https://dictionary-eight-smoky.vercel.app`,
   },
   {
     img: "./img/github.webp",
@@ -36,14 +36,14 @@ let cardOfArr = [
     about:
       " You can refine your search by specific criteria, such as location, followers, programming languages, etc.",
     github: `https://github.com/shekhawatbhawani/Github-API`,
-    live: `github-api-wheat-nine.vercel.app`,
+    live: `https://github-api-wheat-nine.vercel.app`,
   },
   {
     img: "./img/guess.webp",
     title: "Number Guessing Game",
     about: " This is a number guessing game ",
     github: `https://github.com/shekhawatbhawani/Number-Guessing-Game-`,
-    live: `number-guessing-game-nu-rouge.vercel.app`,
+    live: `https://number-guessing-game-nu-rouge.vercel.app`,
   },
 ];
 
