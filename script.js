@@ -1,10 +1,11 @@
 let cardOfArr = [
   {
-    img:"./img/element-list-background-with-coffee-pencil_23-2147660040.avif",
-    title: "Todos Website",
-    about: "Task managing web application to help user to stay organized for his on day to day basis. Tech stack - js and CSS",
-    github: `https://github.com/shekhawatbhawani/Todos-List`,
-    live : `https://todos-list-beta.vercel.app/`
+    img:"./img/trevels.jpeg",
+    title: "Travel Website",
+    about: "This is travel website",
+    github: `https://github.com/shekhawatbhawani/Trevels-Website`,
+    live : `trevels-website.vercel.app
+`
   },
   {
     img: "./img/covid.jpeg",
