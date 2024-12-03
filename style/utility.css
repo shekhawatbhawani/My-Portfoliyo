@@ -1,14 +1,14 @@
-@media (width<877px) {
-    #home .container{
+@media (max-width: 877px) {
+    #home .container1{
         flex-direction: column;
         margin-top: 0px;
     }
-    #home .container .main{
+    #home .container1 .main{
         width: 100%;
         height: fit-content;
         padding: 20px;
     }
-    #home .container .main_2{
+    #home .container1 .main_2{
         width: 100%;
         padding: 20px;
         margin: 0px;
@@ -42,6 +42,15 @@
      .container_5 .box_2{
         width: 80%;
      }
+
+     nav ul.active{
+        display: flex; /* show menu when active  */
+     }
+
+     #toggle_menu{
+        display: block;
+        background-color: white;
+     }
 }
 
 /* 450px */
@@ -61,5 +70,14 @@
     }
     .text{
         overflow-wrap:anywhere;
+    }
+}
+
+@media (max-width:450px) {
+    .container_5{
+        padding: 10px;
+    }
+    .container_2{
+        padding: 2rem;
     }
 }

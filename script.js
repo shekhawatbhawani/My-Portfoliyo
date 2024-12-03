@@ -1,11 +1,10 @@
 let cardOfArr = [
   {
-    img:"./img/trevels.jpeg",
+    img: "./img/trevels.jpeg",
     title: "Travel Website",
     about: "This is travel website",
     github: `https://github.com/shekhawatbhawani/Trevels-Website`,
-    live : `trevels-website.vercel.app
-`
+    live: `trevels-website.vercel.app`,
   },
   {
     img: "./img/covid.jpeg",
@@ -26,32 +25,31 @@ let cardOfArr = [
   {
     img: "./img/fronted.webp",
     title: "Frontend-Practice",
-    about:" a platform or concept related to improving web development skills, particularly on the front end. If you'd like to include an section for a Frontend Practice webpage.",
+    about:
+      " a platform or concept related to improving web development skills, particularly on the front end. If you'd like to include an section for a Frontend Practice webpage.",
     github: `https://github.com/shekhawatbhawani/Frontend-Practice`,
     live: `frontend-practice-lime.vercel.app`,
   },
   {
     img: "./img/github.webp",
     title: "Github Profile Search",
-    about:" You can refine your search by specific criteria, such as location, followers, programming languages, etc.",
+    about:
+      " You can refine your search by specific criteria, such as location, followers, programming languages, etc.",
     github: `https://github.com/shekhawatbhawani/Github-API`,
-    live: `github-api-wheat-nine.vercel.app
-`,
+    live: `github-api-wheat-nine.vercel.app`,
   },
   {
     img: "./img/guess.webp",
     title: "Number Guessing Game",
-    about:" This is a number guessing game ",
+    about: " This is a number guessing game ",
     github: `https://github.com/shekhawatbhawani/Number-Guessing-Game-`,
-    live: `number-guessing-game-nu-rouge.vercel.app
-
-`,
+    live: `number-guessing-game-nu-rouge.vercel.app`,
   },
-]
+];
 
-let allProjectContainer = document.querySelector(".all-projects")
+let allProjectContainer = document.querySelector(".all-projects");
 
-cardOfArr.forEach(element =>{
+cardOfArr.forEach((element) => {
   let card = document.createElement("div");
   card.classList.add("card");
   card.innerHTML = `
@@ -60,14 +58,19 @@ cardOfArr.forEach(element =>{
               <p class="title">${element.title}</p>
               <p class="raj">${element.about}</p>
               <div class="buttons">
-                <a href=${element.github}i class="fa-brands fa-square-github"></i
-                  ></a>
+                <a href=${element.github} target="_blank"><i class="fa-brands fa-square-github"></i
+                  </a>
                   <button>
                     <a href=${element.live} style="font-weight: bolder;"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="2rem" width="2rem" xmlns="http://www.w3.org/2000/svg"><path d="m13 3 3.293 3.293-7 7 1.414 1.414 7-7L21 11V3z"></path><path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"></path></svg></a>
                   </button>
               </div>
             </div>
-  `
+  `;
 
-  allProjectContainer.append(card)
-})
+  allProjectContainer.append(card);
+});
+
+const raj = document.getElementById("ul");
+function toggle() {
+  raj.classList.toggle("none");
+}
