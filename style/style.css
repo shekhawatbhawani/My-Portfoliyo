@@ -73,6 +73,7 @@ main .main {
     top: 15%;
     object-fit:cover;
     z-index: -10;
+    box-shadow:  #f6527b 0px 0px 51px ;
 }
 
 .social {
@@ -283,14 +284,15 @@ p {
 }
 
 .skills img{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    /* height: 150px; */
 }
 
 .skills{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 .sk{
     border: 2px solid white;
@@ -298,13 +300,20 @@ p {
     border-radius: 10px;
     margin: 30px;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    box-shadow: rgba(84, 82, 82, 0.56) 0px 22px 70px 4px;
+    min-height: 160px;
+    min-width: 120px;
 }
+
+
 
 .sk h1{
     margin: 20px auto;
     font-weight: bolder;
+    font-size: 25px;
     color: rgb(96, 95, 95);
+    text-align: center;
+    margin: 10px auto;
 }
 
 /* contact page styling */
