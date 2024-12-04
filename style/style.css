@@ -8,7 +8,7 @@ body {
     font-family: "Lato", sans-serif;
     background-color: #212121;
     color: white;
-     
+
 }
 
 
@@ -22,15 +22,15 @@ body {
     font-style: italic;
 }
 
-#toggle_menu{
+#toggle_menu {
     display: none;
 }
 
-.colour{
+.colour {
     color: white;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,24 +38,27 @@ nav{
     background-color: rgb(76, 95, 110);
 }
 
-ul{
+ul {
     display: flex;
     gap: 20px;
     list-style: none;
     margin-right: 30px;
 
 }
-li a{
+
+li a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
 
 }
-li:hover{
+
+li:hover {
     text-decoration: solid underline;
 }
+
 /* ****************************main styling ****************** */
-section{
+section {
     width: 100%;
 }
 
@@ -71,9 +74,9 @@ main .main {
     border-radius: 80%;
     position: relative;
     top: 15%;
-    object-fit:cover;
+    object-fit: cover;
     z-index: -10;
-    box-shadow:  #f6527b 0px 0px 51px ;
+    box-shadow: #f6527b 0px 0px 51px;
 }
 
 .social {
@@ -93,32 +96,35 @@ main .main {
 .container1 {
     display: flex;
     justify-content: center;
-  
+
 }
 
 .main_2 {
 
-    margin: 100px 0px 180px 0px;
+    margin: 100px 0px 18px 0px;
     text-align: justify;
     width: 35%;
     /* background-color: #e58217eb; */
 
 }
-.none{
+
+.none {
     display: none;
 }
 
-.nav-box{
+.nav-box {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-box button{
+
+.nav-box button {
     padding: 10px 20px;
     border: none;
     outline: none;
 }
+
 .main_2 h4,
 p {
     color: black;
@@ -137,11 +143,11 @@ p {
 .main_2 p {
     font-size: 1.5rem;
 }
+
 .button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
 }
 
 .button a {
@@ -164,10 +170,21 @@ p {
     color: #212121;
     transform: scale(1.05);
 }
+
 @media (max-width: 768px) {
     .btn-1 {
         font-size: 16px;
         padding: 12px 30px;
+    }
+
+    .button a,
+    .btn-1 {
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
     }
 }
 
@@ -180,13 +197,15 @@ p {
 
 
 
-.container_2{
+.container_2 {
     background-color: rgb(221, 223, 225);
     padding: 2rem 4rem;
     /* font-family: cursive; */
     width: 100%;
 }
-.about , .container_3 h1{
+
+.about,
+.container_3 h1 {
     text-align: center;
     font-size: 2rem;
     margin: 20px;
@@ -194,7 +213,7 @@ p {
 }
 
 
-.about_para{
+.about_para {
     font-size: 20px;
     word-spacing: 2px;
     margin: 40px auto;
@@ -203,43 +222,45 @@ p {
 }
 
 
-.container_3{
- 
- padding: 40px;
- background-color: rgb(219, 219, 213);
- width: 100%;
+.container_3 {
+
+    padding: 40px;
+    background-color: rgb(219, 219, 213);
+    width: 100%;
 }
 
-.all-projects{
+.all-projects {
     margin: 100px 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-
-.card{
-   
+.all-projects .card{
+    border-radius: 20px;
+}
+.card {
     background-color: white;
     color: black;
     width: 300px;
     margin: 30px 20px;
     border-radius: 20px;
-  
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-.content{
+.content {
     padding: 20px;
 }
 
-.card #card-img{
+.card #card-img {
     min-width: 50px;
-    max-width: 300px;
+    width: 300px;
     height: 200px;
     border-radius: 20px;
+     
 }
-.card .title{
+
+.card .title {
     text-align: center;
     color: black;
     font-size: 1.5rem;
@@ -247,54 +268,56 @@ p {
 
 }
 
-.card .raj{
+.card .raj {
     text-align: center;
     /* color: #ffffff; */
     color: black;
     font-size: 1.0rem;
 }
 
-.card .buttons{
+.card .buttons {
     display: flex;
     justify-content: space-around;
     margin: 20px;
 }
 
-.card .fa-square-github{
+.card .fa-square-github {
     font-size: 2rem;
 }
 
-.card button{
+.card button {
     background-color: white;
     border: none;
 }
 
-.card button a svg{
+.card button a svg {
     font-size: 2rem;
 }
 
-.container_4{
+.container_4 {
     margin: 50px auto;
     padding: 40px;
     background-color: #d8d1d1;
 }
-.skill_title{
+
+.skill_title {
     text-align: center;
     font-size: 2.5rem;
 }
 
-.skills img{
-    width: 100px;
+.skills img {
+    width: 100%;
     /* height: 150px; */
 }
 
-.skills{
+.skills {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
 }
-.sk{
+
+.sk {
     border: 2px solid white;
     background-color: lightgray;
     border-radius: 10px;
@@ -303,11 +326,12 @@ p {
     box-shadow: rgba(84, 82, 82, 0.56) 0px 22px 70px 4px;
     min-height: 160px;
     min-width: 120px;
+    max-width: 150px;
 }
 
 
 
-.sk h1{
+.sk h1 {
     margin: 20px auto;
     font-weight: bolder;
     font-size: 25px;
@@ -318,77 +342,80 @@ p {
 
 /* contact page styling */
 
-.container_5{
-    padding: 150px 0px 150px 50px ;
-   background-image: 
-   linear-gradient(to right, rgba(90, 152, 199, 0.349), rgba(95, 104, 198, 0.29)), 
-   url('/img/contact.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   display: flex;
+.container_5 {
+    padding: 150px 0px 50px 50px;
+    background-image:
+        linear-gradient(to right, rgba(90, 152, 199, 0.349), rgba(95, 104, 198, 0.29)),
+        url('/img/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
 
 }
 
-.container_5 .box{
+.container_5 .box {
     padding: 30px;
     width: 50%;
 }
-.container_5 .box p{
+
+.container_5 .box p {
     font-size: 20px;
     color: white;
 }
-.container_5 .box i , .text{
+
+.container_5 .box i,
+.text {
     font-size: 25px;
     margin-right: 10px;
 }
 
-.container_5 ul{
+.container_5 ul {
     flex-direction: column;
     color: white;
     margin: 30px 0px;
     padding: 0px;
-    
+
 }
- 
+
 h1.contact-title {
     font-size: 35px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 30px;
 }
- .box_2{
+
+.box_2 {
     width: 50%;
     background-color: #fff;
     padding: 40px;
 }
 
-.box_2 input,textarea{
+.box_2 input,
+textarea {
     width: 100%;
     border: none;
     outline: none;
     border-bottom: 1px solid darkgray;
     font-weight: 600;
-    margin-bottom:30px;
+    margin-bottom: 30px;
     font-size: 16px;
     height: 55px;
 }
 
-.box_2 textarea{
+.box_2 textarea {
     min-height: 50px;
 }
 
 
-.box_2 button{
-        color: #fff !important;
-        margin-right: 20px;
-        background: #FE846F;
-        margin-top: 50px;
-        padding: 10px;
-        border-radius: 10px;
-        font-size: 1.5rem;
-        border: none;
-        outline: none;
-}  
-
-
+.box_2 button {
+    color: #fff !important;
+    margin-right: 20px;
+    background: #FE846F;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+}
