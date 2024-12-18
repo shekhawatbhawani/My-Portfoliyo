@@ -74,3 +74,17 @@ const raj = document.getElementById("ul");
 function toggle() {
   raj.classList.toggle("none");
 }
+
+
+let h1 = document.querySelector(".web")
+let str = "Full Stack Developer"
+let i = 0
+setInterval(() => {
+  if(i < str.length){
+    h1.textContent += str[i]
+  }else{
+    h1.textContent = ""
+    i = -1
+  }
+  i++
+}, 150);
