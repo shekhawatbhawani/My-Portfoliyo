@@ -42,7 +42,8 @@
     }
 
     .container_5 .box_2 {
-        width: 80%;
+        width: 90%;
+        margin: auto;
     }
 
     nav ul.active {
@@ -98,5 +99,8 @@
     
         .container_2 {
             padding: 2rem;
+        }
+        .container_5 .box_2 {
+            width: 100%;
         }
     }
