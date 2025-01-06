@@ -265,23 +265,26 @@
             </ul>
           </div>
           <div class="box_2">
+           <form action="https://api.web3forms.com/submit" method="post" class="contact-form">
+            <input type="hidden" name="access_key" value="c63fc3ee-a9d1-411c-8518-7dcbda8cd98a">
             <div>
-              <input type="text" required placeholder="Enter Your Name *" />
+              <input type="text" required placeholder="Enter Your Name *" name="name" />
             </div>
             <div>
-              <input type="email" required placeholder="Enter Your Email *" />
+              <input type="email" required placeholder="Enter Your Email *" email="email" />
             </div>
             <div>
               <textarea
                 rows="4"
-                name=""
+                name="custom-message"
                 id=""
                 required
                 placeholder="Enter your Message *"
                 ></textarea>
+                <button>Send Us</button>
+           </form>
               </div>
               <div>
-                <button>Send Us</button>
             </div>
           </div>
         </div>
