@@ -7,43 +7,26 @@ let cardOfArr = [
     live: `https://trevels-website.vercel.app`,
   },
   {
-    img: "./img/covid.jpeg",
-    title: "Covid 19",
-    about:
-      "The COVID-19 API is an online service that provides real-time and historical data related to the COVID-19 pandemic",
-    github: `https://github.com/shekhawatbhawani/covid-19-API`,
-    live: `https://covid-19-api-eta.vercel.app/`,
+    img: "./img/foodwebsite.webp", // Updated image for Food Website
+    title: "Food Website",
+    about: "A website dedicated to delicious food recipes and culinary inspiration.",
+    github: `https://github.com/shekhawatbhawani/Food-Website-`,
+    live: `https://food-website-eight-opal.vercel.app/`,
   },
   {
-    img: "./img/engJokesh.jpeg",
-    title: "English Random Jokes",
-    about:
-      "If you're looking for a website that can give you more random jokes, here are a few you can check out:",
-    github: `https://github.com/shekhawatbhawani/English-Random-Jokes`,
-    live: `https://hindi-random-jokes.vercel.app`,
-  },
-  {
-    img: "./img/dic.webp",
-    title: "Dictionary",
-    about:
-      "A comprehensive resource providing definitions, meanings, and usage examples of words in the English language to help improve vocabulary and language skills.",
-    github: `https://github.com/shekhawatbhawani/Dictionary`,
-    live: `https://dictionary-eight-smoky.vercel.app`,
+    img: "./img/job.jpg", // Updated image for Job App
+    title: "Job App",
+    about: "A platform to search and apply for jobs efficiently.",
+    github: `https://github.com/shekhawatbhawani/Job-App-`,
+    live: `https://job-app-steel-eta.vercel.app/`,
   },
   {
     img: "./img/github.webp",
     title: "Github Profile Search",
     about:
-      " You can refine your search by specific criteria, such as location, followers, programming languages, etc.",
+      "You can refine your search by specific criteria, such as location, followers, programming languages, etc.",
     github: `https://github.com/shekhawatbhawani/Github-API`,
     live: `https://github-api-wheat-nine.vercel.app`,
-  },
-  {
-    img: "./img/guess.webp",
-    title: "Number Guessing Game",
-    about: " This is a number guessing game ",
-    github: `https://github.com/shekhawatbhawani/Number-Guessing-Game-`,
-    live: `https://number-guessing-game-nu-rouge.vercel.app`,
   },
 ];
 
