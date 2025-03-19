@@ -318,11 +318,11 @@ p {
 .card button a svg {
     font-size: 2rem;
 }
-
+/* 
 .container_4 {
     margin: 50px auto;
     padding: 40px;
-    /* background-color: #d8d1d1; */
+    /* background-color: #d8d1d1; 
     background-color: black;
 }
 
@@ -335,8 +335,8 @@ p {
 .skills img {
     height: 80px;
     width: 100px;
-    /* width: 50%; */
-    /* height: 150px; */
+    /* width: 50%; 
+    /* height: 150px; 
     object-fit: contain;
 }
 
@@ -351,7 +351,7 @@ p {
 .sk {
     /* border: 2px solid white; */
     /* background-color: lightgray; */
-    /* margin: 30px; */
+    /* margin: 30px; 
     text-align: center;
     box-shadow: rgba(84, 82, 82, 0.56) 0px 22px 70px 4px;
     height: 120px;
@@ -374,7 +374,7 @@ p {
     color: rgb(255, 254, 254);
     text-align: center;
     margin: 10px auto;
-}
+} */
 
 /* contact page styling */
 
@@ -464,4 +464,89 @@ textarea {
     font-size: 1.5rem;
     border: none;
     outline: none;
+}
+
+
+
+
+.container_4 {
+    padding: 50px 20px;
+    margin: auto;
+    background-color: #121212; /* Darker background for modern look */
+    color: #f5f5f5; /* Lighter text color */
+
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.skill_title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 50px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-bottom: 2px solid #ff9800;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.skill_category {
+    font-size: 1.8em;
+    grid-column: 1 / -1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: 4px solid #ff9800;
+    padding-left: 10px;
+}
+
+.sk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e; /* Slightly lighter than the background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+}
+
+.sk:hover {
+    transform: translateY(-10px);
+    background-color: #ff9800;
+}
+
+.skills h1 {
+    font-size: 1.6em;
+    color: #fff;
+    font-weight: 600;
+}
+
+.skills h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    grid-column: 1 / -1;
+    color: #ff9800;
+}
+
+@media screen and (max-width: 768px) {
+    .skill_title {
+        font-size: 2.2em;
+    }
+
+    .skills h1 {
+        font-size: 1.2em;
+    }
+
+    .skills h2 {
+        font-size: 1.3em;
+    }
 }

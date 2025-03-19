@@ -1,11 +1,11 @@
 let cardOfArr = [
   {
-    img: "./img/trevels.jpeg",
-    title: "Travel Website",
-    about: "This is travel website",
-    github: `https://github.com/shekhawatbhawani/Trevels-Website`,
-    live: `https://trevels-website.vercel.app`,
-  },
+    img: "https://imgs.search.brave.com/JUob_1Uo3DQUmQ0cEaE6X4K9HF5-VV5AaHvLLz8Y9w0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZS5zaHV0dGVyc3Rv/Y2suY29tL2ltYWdl/LXBob3RvL29ubGlu/ZS1lY29tbWVyY2Ut/d2Vic2l0ZS1zdG9y/ZS1zaG9wcGluZy00/NTB3LTI0OTQ2ODEw/MzcuanBn",
+    title: "Ayurvedia E-commerce Website",
+    about: "Ayurvedia is an e-commerce platform for Ayurvedic products, offering secure ordering, authentication, and a responsive design.",
+    live: "https://e-commerce-website-gamma-woad.vercel.app/",
+  }
+  ,
   {
     img: "./img/foodwebsite.webp", // Updated image for Food Website
     title: "Food Website",
